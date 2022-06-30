@@ -1,0 +1,49 @@
+.el-header {
+  --el-header-height: 48px !important;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+}
+.el-aside {
+  box-shadow: 1px 3px 3px rgba(0, 21, 41, 0.08);
+  background-color: var(--el-menu-bg-color);
+  border-right: solid 1px var(--el-menu-border-color);
+
+  overflow-y: auto;
+  text-align: left;
+  overflow-x: hidden;
+  transition: width 0.3s;
+  scrollbar-width: none; /* firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+// 菜单样式
+.el-menu {
+  border: none !important;
+
+  // 当前选中文本颜色
+  .is-active {
+    > .el-sub-menu__title {
+      color: var(--el-menu-hover-text-color) !important;
+    }
+  }
+
+  // 当前选中背景颜色
+  .el-menu-item.is-active {
+    background-color: var(--el-menu-active-bg-color);
+  }
+
+  // 悬浮文字颜色
+  .el-sub-menu__title,
+  .el-menu-item {
+    &:hover {
+      color: var(--el-menu-hover-text-color);
+    }
+  }
+
+  // 子菜单背景颜色
+  .el-menu--inline {
+    background-color: var(--el-menu-sub-bg-color);
+  }
+}

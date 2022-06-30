@@ -1,4 +1,4 @@
-<h1 align="center" dir="auto"><a id="user-content-unocss" class="anchor" aria-hidden="true" href="#unocss"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"></a>VueSureAdmin</h1>
+<h1 align="center" dir="auto">VueSureAdmin</h1>
 
 <div  align="center">
 <a href="https://www.pnpm.cn/">
@@ -8,3 +8,19 @@
 ---
 
 ## 功能
+
+## Git 提交规范
+
+参考 Vue 规范（Angular）
+
+feat 新增特性 (feature)
+fix 修复 Bug(bug fix)
+docs 修改文档 (documentation)
+style 代码格式修改（white-space, formatting, missing semi colons, etc）
+refactor 代码重构（refactor）
+perf 改善性能（A code change that improves performance）
+test 测试（when adding missing tests）
+build 变更项目构建或外部依赖（例如 scopes: webpack、gulp、npm 等）
+ci 更改持续集成软件的配置文件和 package 中的 scripts 命令，例如 scopes: Travis, Circle 等
+chore 变更构建流程或辅助工具（比如更改测试环境）
+revert 代码回退
